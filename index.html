@@ -10,7 +10,8 @@
   <!--bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+  <!--cdnjs-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
@@ -18,12 +19,12 @@
     <!--menu-->
     <div class="container-fluid">
 
-      <div class="row">
-        <div class="debug col-11 col-md-6 text-lg-center text-white">LOGO</div>
+      <div class="row py-3">
+        <div class="col-11 col-md-6 text-lg-center text-white">LOGO</div>
 
-        <div class="debug col-1 d-md-none text-white">H</div>
+        <div class="col-1 d-md-none text-white">H</div>
 
-        <div class="debug col d-none d-md-block col-md-6 text-end text-lg-center text-white">MENU</div>
+        <div class="col d-none d-md-block col-md-6 text-end text-lg-center text-white">MENU</div>
       </div>
       
     </div>
@@ -33,15 +34,15 @@
   <main>
     
     <!--jumbotron-->
-      <div class="container-fluid h-100 bg-info">
+      <div class="sg-jumbotron container-fluid h-100">
 
         <div class="gs-container">
 
           <div class="row text-center">
-            <div class="debug py-4">IMG</div>
-            <div class="debug py-4 text-white"><h1>START BOOTSTRAP</h1></div>
-            <div class="debug py-4 text-white">&star;</div>
-            <div class="debug py-4 text-white"><h3>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h3></div>
+            <div class="py-4">IMG</div>
+            <div class="py-4 text-white"><h1>START BOOTSTRAP</h1></div>
+            <div class="py-4 text-white">&star;</div>
+            <div class="py-4 text-white"><h3>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h3></div>
           </div>
   
         </div>
@@ -50,15 +51,15 @@
 
 
     <!--section portfolio-->
-    <div class="container">
+    <div class="container-fluid">
 
       <div class="container">
 
-        <div class="row text-center">
+        <div class="row text-center justify-content-center">
 
-          <div class="debug mt-5"><h2>PORTFOLIO</h2></div>
+          <div class="mt-5"><h2>PORTFOLIO</h2></div>
 
-          <div class="debug my-3">&star;</div>
+          <div class="my-3">&star;</div>
 
           <div class="debug my-2 py-4 col-md-5  mx-md-4 col-lg-3 ">IMG 1</div>
 
@@ -79,16 +80,24 @@
     </div>
 
     <!--section about-->
-    <div class="container-fluid my-5 $info: #1ABC9C";>
+    <div class="about container-fluid my-5">
 
-      <div class="gs-container debug">
+      <div class="gs-container">
       
         <div class="row text-center">
-          <div class="debug text-white"><h2>ABOUT</h2></div>
-          <div class="debug text-white">&star;</div>
-          <div class="debug col-md-6 text-white"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, hic.</p></div>
-          <div class="debug col-md-6 text-white"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, modi!</p></div>
-          <div class="debug py-2 text-white"><div class="btn border border-white">Download</div></div>
+
+          <div class="text-white"><h2>ABOUT</h2></div>
+
+          <div class="text-white my-md-2">&star;</div>
+
+            <div class="col-md-5 mx-md-5 text-white"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, hic.</p></div>
+
+            <div class="col-md-5 mx-md-3 text-white"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, modi!</p></div>
+
+          <div class="py-2 my-md-4 text-white">
+            <div class="btn border border-white">Download</div>
+          </div>
+
         </div>
 
       </div>
@@ -97,22 +106,22 @@
 
 
     <!--section contact-me-->
-    <div class="container-fluid debug">
+    <div class="contact-me container-fluid">
 
       <div class="gs-container">
 
         <div class="row">
-          <div class="debug text-center"><h2>CONTACT ME</h2></div>
-          <div class="debug text-center">&star;</div>
+          <div class="text-center"><h2>CONTACT ME</h2></div>
+          <div class="text-center">&star;</div>
 
           <ul>
-          <li class="debug ">Name</li>
-            <li class="debug">Email Address</li>
-            <li class="debug">Phone Number</li>
-            <li class="debug">Message</li>
+            <li class="border-bottom border-secondary ">Name</li>
+            <li class="border-bottom border-secondary">Email Address</li>
+            <li class="border-bottom border-secondary">Phone Number</li>
+            <li class="border-bottom border-secondary">Message</li>
           </ul>
 
-          <div class="debug my-5"> <button class="btn border border-info">Send</button></div>
+          <div class="my-5"> <button class="btn border border-info">Send</button></div>
           
         </div>
 
@@ -125,22 +134,22 @@
   <footer>
 
     <!--section info-->
-    <div class="container-fluid debug">
+    <div class="info container-fluid">
 
       <div class="container">
 
         <div class="row text-center">
-          <div class="debug py-3 col-md-4 my-md-2 text-white">
+          <div class="py-3 col-md-4 my-md-2 text-white">
             <h6>LOCATION</h6>
             <h6>2215 John Daniel Drive Clark, MO 54243</h6>
           </div>
 
-          <div class="debug py-3 col-md-4 my-md-2 text-white">
+          <div class="py-3 col-md-4 my-md-2 text-white">
             <h6>AROUND THE WEB</h6>
             1234
           </div>
-
-          <div class="debug py-3 col-md-4 my-md-2 text-white">
+          
+          <div class="py-3 col-md-4 my-md-2 text-white">
             <h6>ABOUT FREELANCER</h6>
             <h6>Frelance is a free to use, open source Bootstrap theme created by <span>Start Bootsrap</span>
               .</h6>
@@ -153,10 +162,10 @@
 
     </div>
 
-    <div class="container-fluid">
+    <div class="copyright container-fluid">
       <div class="row">
-        <div class="debug text-white">
-          <p class="text-center py-5">Copyright &copy; Your Website 2019</p>
+        <div class="text-white">
+          <p class="text-center py-1">Copyright &copy; Your Website 2019</p>
         </div>
       </div>
     </div>

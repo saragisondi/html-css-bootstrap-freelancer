@@ -1,3 +1,4 @@
+/*GENERAL*/
 .debug{
   background-color: rgba(252, 0, 0, 0.5);
   min-height: 50px;
@@ -15,5 +16,37 @@ p{
 
 li{
   list-style: none;
+  color: black;
 }
 
+/*HEADER*/
+header{
+  background-color:#2C3E50;
+}
+
+/*MAIN*/
+main .sg-jumbotron{
+  background-color: #1ABC9C;
+}
+
+main .about{
+  background-color:#1ABC9C;
+}
+
+main .contact-me .btn{
+  background-color: #1ABC9C;
+}
+
+
+/*FOOTER*/
+footer span{
+  color:#1ABC9C
+}
+
+footer .info{
+  background-color:#3A546D;
+}
+
+footer .copyright{
+  background-color:#2C3E50;
+}
