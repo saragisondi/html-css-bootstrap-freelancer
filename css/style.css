@@ -9,6 +9,15 @@
   margin: 0 auto;
 }
 
+.gs-container{
+  max-width: 60%;
+  margin: 0 auto;
+}
+
 p{
   text-align: justify;
+}
+
+li{
+  list-style: none;
 }
