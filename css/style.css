@@ -3,3 +3,8 @@
   min-height: 50px;
   border: 1px solid black;
 }
+
+.sg-container{
+  max-width: 80%;
+  margin: 0 auto;
+}
