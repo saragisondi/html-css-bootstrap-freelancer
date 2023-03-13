@@ -17,7 +17,7 @@
 
   <header>
     <!--menu-->
-    <div class="container-fluid">
+    <div class="container">
 
       <div class="row py-3">
         <div class="col-11 col-md-6 text-lg-center text-white">LOGO</div>
@@ -34,11 +34,11 @@
   <main>
     
     <!--jumbotron-->
-      <div class="sg-jumbotron container-fluid h-100">
+      <section id="sg-jumbotron">
 
-        <div class="gs-container">
-
-          <div class="row text-center">
+        <div class="container h-100 text-center">
+          
+          <div class="row h-100 align-content-center">
             <div class="py-4">IMG</div>
             <div class="py-4 text-white"><h1>START BOOTSTRAP</h1></div>
             <div class="py-4 text-white">&star;</div>
@@ -47,128 +47,140 @@
   
         </div>
   
-      </div>
+      </section>
 
 
     <!--section portfolio-->
-    <div class="container-fluid">
+    <section class="py-5" id="portfolio">
 
-      <div class="container">
-
-        <div class="row text-center justify-content-center">
-
-          <div class="mt-5"><h2>PORTFOLIO</h2></div>
-
-          <div class="my-3">&star;</div>
-
-          <div class="debug my-2 py-4 col-md-5  mx-md-4 col-lg-3 ">IMG 1</div>
-
-          <div class="debug my-2 py-4 col-md-5 mx-md-4 col-lg-3">IMG 2</div>
-
-          <div class="debug my-2 py-4 col-md-5 mx-md-4 col-lg-3 ">IMG 3</div>
-
-          <div class="debug my-2 py-4 col-md-5 mx-md-4 col-lg-3">IMG 4</div>
-
-          <div class="debug my-2 py-4 col-md-5  mx-md-4 col-lg-3 ">IMG 5</div>
-
-          <div class="debug my-2 py-4 col-md-5 mx-md-4 col-lg-3">IMG 6</div>
-
-        </div>
-
+      <div class="container text-center ">
+        <div class="mt-5"><h2>PORTFOLIO</h2></div>
+        <div class="my-3">&star;</div>
       </div>
 
-    </div>
+        <div class="container">
+          <div class="row text-center justify-content-center">
+            <div class="debug my-2 py-4 col-md-5  mx-md-4 col-lg-3 ">IMG 1</div>  
+            <div class="debug my-2 py-4 col-md-5 mx-md-4 col-lg-3">IMG 2</div>
+            <div class="debug my-2 py-4 col-md-5 mx-md-4 col-lg-3 ">IMG 3</div>
+            <div class="debug my-2 py-4 col-md-5 mx-md-4 col-lg-3">IMG 4</div>
+            <div class="debug my-2 py-4 col-md-5  mx-md-4 col-lg-3 ">IMG 5</div>
+            <div class="debug my-2 py-4 col-md-5 mx-md-4 col-lg-3">IMG 6</div>
+          </div>
+        </div>
+
+    </section>
 
     <!--section about-->
-    <div class="about container-fluid my-5">
+    <section class="py-5" id="about">
 
-      <div class="gs-container">
-      
-        <div class="row text-center">
+      <div class="container text-center ">
+        <div class="text-white"><h2>ABOUT</h2></div>
+        <div class="text-white my-md-2">&star;</div>
+      </div>
 
-          <div class="text-white"><h2>ABOUT</h2></div>
-
-          <div class="text-white my-md-2">&star;</div>
-
-            <div class="col-md-5 mx-md-5 text-white"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, hic.</p></div>
-
-            <div class="col-md-5 mx-md-3 text-white"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, modi!</p></div>
-
-          <div class="py-2 my-md-4 text-white">
-            <div class="btn border border-white">Download</div>
+        <div class="sg-container">
+          <div class="container-fluid">
+            <div class="row text-center justify-content-center">
+                <div class="col-md-5 text-white"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam libero alias mollitia culpa dolores cupiditate sapiente facilis doloremque, fuga autem!</p></div>
+                <div class="col-md-5 text-white"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque consectetur enim, incidunt consequuntur iure non placeat distinctio cumque fugiat. Ducimus.</p></div>
+              <div class="py-2 my-md-4 text-white">
+                <div class="btn border border-white">Download</div>
+              </div>
+            </div>  
           </div>
 
         </div>
 
-      </div>
-
-    </div>
+    </section>
 
 
     <!--section contact-me-->
-    <div class="contact-me container-fluid">
+    <section class="contact-me py-5">
 
-      <div class="gs-container">
+      <div class="container text-center">
+        <div class="text-center"><h2>CONTACT ME</h2></div>
+        <div class="text-center">&star;</div>
+      </div>
+  
+        <div class="sg-container">
+          <div class="container-fluid">
 
-        <div class="row">
-          <div class="text-center"><h2>CONTACT ME</h2></div>
-          <div class="text-center">&star;</div>
+            <div class="row ">
+              <div class="col-6">
+                <form class="sg-form" action="#">
+                  <div class="mb-3">
+                    <input type="name" class="form-control" id="name" placeholder="Name">
+                  </div>
+                
+                  <div class="mb-3">
+                    <input type="email" class="form-control" id="email" placeholder="Email address">
+                  </div>
+                
+                  <div class="mb-3">
+                    <input type="phone" class="form-control" id="phone" placeholder="Phone Number">
+                  </div>
+                
+                  <div class="mb-3">
+                    <textarea class=" sg-form form-control" id="Textarea" rows="3" placeholder="Message"></textarea>
+                  </div>
+                
+                  <button type="submit" class="btn btn-success">Send</button>
+                </form>
+              </div>
+            </div>
 
-          <ul>
-            <li class="border-bottom border-secondary ">Name</li>
-            <li class="border-bottom border-secondary">Email Address</li>
-            <li class="border-bottom border-secondary">Phone Number</li>
-            <li class="border-bottom border-secondary">Message</li>
-          </ul>
-
-          <div class="my-5"> <button class="btn border border-info">Send</button></div>
-          
+          </div>
+  
         </div>
 
-      </div>
-
-    </div>
+    </section>
 
   </main>
 
   <footer>
 
     <!--section info-->
-    <div class="info container-fluid">
-
-      <div class="container">
-
-        <div class="row text-center">
-          <div class="py-3 col-md-4 my-md-2 text-white">
-            <h6>LOCATION</h6>
-            <h6>2215 John Daniel Drive Clark, MO 54243</h6>
+    <section class="info">
+      <div class="footer-top text-center">
+  
+        <div class="container">
+  
+          <div class="row">
+            <div class="py-3 col-md-4 my-md-2 text-white">
+              <h6>LOCATION</h6>
+              <h6>2215 John Daniel Drive Clark, MO 54243</h6>
+            </div>
+  
+            <div class="py-3 col-md-4 my-md-2 text-white">
+              <h6>AROUND THE WEB</h6>
+              1234
+            </div>
+            
+            <div class="py-3 col-md-4 my-md-2 text-white">
+              <h6>ABOUT FREELANCER</h6>
+              <h6>Frelance is a free to use, open source Bootstrap theme created by <span>Start Bootsrap</span>
+                .</h6>
+  
+            </div>
+  
           </div>
-
-          <div class="py-3 col-md-4 my-md-2 text-white">
-            <h6>AROUND THE WEB</h6>
-            1234
-          </div>
-          
-          <div class="py-3 col-md-4 my-md-2 text-white">
-            <h6>ABOUT FREELANCER</h6>
-            <h6>Frelance is a free to use, open source Bootstrap theme created by <span>Start Bootsrap</span>
-              .</h6>
-
-          </div>
-
+  
         </div>
-
+  
       </div>
 
-    </div>
+    </section>
 
-    <div class="copyright container-fluid">
-      <div class="row">
-        <div class="text-white">
-          <p class="text-center py-1">Copyright &copy; Your Website 2019</p>
+    <section class="copyright">
+      <div class="footer-bottom">
+        <div class="row">
+          <div class="text-white">
+            <p class="text-center py-1">Copyright &copy; Your Website 2019</p>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
   </footer>
 
