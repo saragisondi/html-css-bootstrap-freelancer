@@ -18,6 +18,15 @@ p{
   text-align: justify;
 }
 
+ul{
+  display: flex;
+}
+
+li{
+  list-style: none;
+  margin: 0 20px;
+}
+
 .sg-form input, .sg-form textarea{
   border-left:none;
   border-top:none;
@@ -125,6 +134,3 @@ footer .footer-top i{
   padding: 15px;
   border-radius: 50%;
 }
-
-/*FOOTER BOTTOM*/
-
