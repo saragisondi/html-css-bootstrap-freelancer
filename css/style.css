@@ -10,6 +10,10 @@
   margin: 0 auto;
 }
 
+img{
+  width: 100%;
+}
+
 p{
   text-align: justify;
 }
@@ -39,17 +43,10 @@ header , footer .copyright{
   background-color:#2C3E50;
 }
 
-.star{
+.star {
   display: flex;
   justify-content: center;
   position: relative;
-}
-
-.left , .right{
-  color: black;
-  width: 100px;
-  height: 5px;
-  margin: 0 30px;
 }
 
 .fa-star{
@@ -58,34 +55,76 @@ header , footer .copyright{
   top: 10px;
 }
 
+.star.black{
+  color: black;
+}
+
+.star.white{
+  color: #ffff;
+}
+
+.star.white .right , .left
+{
+  width: 100px;
+  height: 5px;
+  margin: 0 30px;
+  background-color: #ffff
+}
+
+.star.black .left, .right
+{
+  width: 100px;
+  height: 5px;
+  margin: 0 30px;
+  background-color: black;
+}
+
 /*HEADER*/
 header i{
   color:#76808B;
   border:1px solid #76808B;
-padding: 5px 10px;
-border-radius: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
-
 
 /*MAIN*/
-main .sg-jumbotron , #about{
+
+/*JUMBOTRON*/
+main .sg-jumbotron , .about{
   background-color: #1ABC9C;
-}
-.sg-jumbotron .left, .right{
-  background-color: #ffff;
 }
 
 .img-jumbo img{
   width: 80% ;
 }
 
+/*PORTFOLIO*/
+.sg-cards img{
+  border-radius: 10px;
+}
 
+.sg-cards .sg-card{
+  width: 100%;
+  height: 400px;
+  
+}
 
 /*FOOTER*/
 footer span{
   color:#1ABC9C
 }
 
+/*FOOTER TOP*/
 footer .info{
   background-color:#3A546D;
 }
+
+footer .footer-top i{
+  margin: 0 10px;
+  border: 1px solid #ffff;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+/*FOOTER BOTTOM*/
+
