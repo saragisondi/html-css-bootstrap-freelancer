@@ -27,6 +27,15 @@ li{
   margin: 0 20px;
 }
 
+ li a{
+  text-decoration: none;
+  color: white;
+}
+
+ul li a:hover{
+  color: #1ABC9C;
+}
+
 .sg-form input, .sg-form textarea{
   border-left:none;
   border-top:none;
@@ -86,6 +95,7 @@ header , footer .copyright{
   height: 5px;
   margin: 0 30px;
   background-color: black;
+  border-radius: 25px;
 }
 
 /*HEADER*/
@@ -104,7 +114,7 @@ main .sg-jumbotron , .about{
 }
 
 .img-jumbo img{
-  width: 80% ;
+  width: 250px ;
 }
 
 /*PORTFOLIO*/
