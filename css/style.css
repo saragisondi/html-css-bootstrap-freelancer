@@ -10,10 +10,6 @@
   margin: 0 auto;
 }
 
-img{
-  width: 100%;
-}
-
 p{
   text-align: justify;
 }
@@ -127,6 +123,8 @@ main .sg-jumbotron , .about{
   height: 400px;
   
 }
+
+/*LAYOVER*/
 
 /*FOOTER*/
 footer span{
